@@ -1,0 +1,66 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+/* font-family: 'Ysabeau', sans-serif; */
+
+/* normalization */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* general styles */
+body {
+    font-family: 'Ysabeau', sans-serif;
+    color: rgb(var(--main-text-color));
+}
+/* background */
+body:before {
+    content: "";
+
+    background-color: #333;
+    background-image: url('../img/bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* content container */
+.page_main {
+    max-width: 1200px;
+    width: 100%;
+
+    margin: 60px auto;
+    padding: 20px 30px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(var(--window-background),0.70);
+}
+
+@media (max-width: 1200px) {
+    .page_main {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .page_main {
+        width: 98%;
+    }
+}
+

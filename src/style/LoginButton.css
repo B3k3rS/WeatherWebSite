@@ -1,0 +1,26 @@
+.login_button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(var(--window-background),0.70);
+}
+
+.login_button > img {
+    width: 25px;
+    height: 25px;
+
+}
+
+.login_button > div {
+    font-size: 16px;
+    text-transform: uppercase;
+}
