@@ -1,18 +1,18 @@
-.not_authorize {
+.error_page {
     width: 50%;
 }
 
-.not_authorize > img {
+.error_page > img {
     width: 100%;
 }
 
-.not_authorize > h2 {
+.error_page > h2 {
     text-align: center;
     font-weight: 500;
 }
 
 @media (max-width: 756px) {
-    .not_authorize {
+    .error_page {
         width: 80%;
     }
 }

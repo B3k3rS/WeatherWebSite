@@ -1,0 +1,22 @@
+.notify_window {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 60px;
+    right: 0;
+    width: 0;
+    height: 50px;
+    background: rgb(var(--green-color));
+    color: rgb(var(--main-text-color));
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    
+}
+
+.notify_window > img {
+    width: 40px;
+    margin-right: 20px;
+}
+
