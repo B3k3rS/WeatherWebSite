@@ -111,6 +111,7 @@ async function loadContent(hash) {
         }
     }
     else {
+        // Error hash adress
         mainBlock.innerHTML = errorPage(`This page does not exist. You will be redirected to the grave page within 5 seconds!`)
         setTimeout(()=> {
             window.location.hash = ``

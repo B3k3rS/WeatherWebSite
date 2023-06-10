@@ -1,3 +1,5 @@
+
+// Return different imgs
 function returnImg(type) {
     if (type == 'error') {
         return `<img src="./src/img/error_notify.png" alt="error" />`
